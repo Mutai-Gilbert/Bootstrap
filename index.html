@@ -2,20 +2,20 @@
 <html lang="en">
 
 <head>
-    <title>Bootstrap</title>
-    <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-    <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
-        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+    <title>Bootstrap</title>
 </head>
 
 <body>
-    <!-- Nav tabs -->
     <section>
-        <div class="container-fluid">
+        <div class="position-relative">
+
+        <div>
 
             <nav class="navbar navbar-expand-sm">
                 <div class="container-fluid">
@@ -38,12 +38,12 @@
 
                 </div>
             </nav>
+        </div>
 
 
 
-            <div class="col-md-12  mb-lg-0">
-                <div class="bg-image d-flex justify-content-center align-items-center" style="
-                        background-image: url('./img/Header\ bg@2x.png'); height: 100vh;">
+            <div class=" container mb-lg-0 ml-5">
+                <div class="bg-image d-flex justify-content-center align-items-center vh-100">
                     <div class="card-body mt-5">
                         <h1 class="card-title">I'm Alexandra <br>
                             Glad to see you!</h1>
@@ -66,12 +66,13 @@
                     </div>
                 </div>
             </div>
+        </div>
 
     </section>
 
-    <section class="card-body bg-light">
+    <section class="container-fluid bg-light">
 
-        <div class="card container-fluid rounded col-12 nrounded mt-4 mb-5 bg-white bg-red">
+        <div class="card rounded col-12 nrounded mt-4 mb-5 bg-white bg-red">
             <div class="row">
 
                 <div class="col-sm-6 mb-sm-0">
@@ -189,13 +190,11 @@
 
     </section>
 
-    <section class="card-body">
+    <section class="">
 
-        <div class="">
+            <div class="row">
 
-            <div class="row mt-5">
-
-                <div class="column col-5 mr-2">
+                <div class="container float-left col-6">
                     <h3>About <br> Myself</h3>
                     <p class="text-muted">Hello I'm a software developer! I can help you build a product , feature or
                         website Look through
@@ -214,7 +213,7 @@
                     <button type="submit" class="btn  btn-primary mt-3">Get My Resume</button>
                 </div>
 
-                <div class="column">
+                <div class="container float-right">
 
                     <h5>Languages</h5>
 
@@ -225,7 +224,7 @@
                             <h6>javascript</h6>
 
                         </div>
-                        <div class="dflex column  bg-light w-50 mr-2">
+                        <div class="dflex column  bg-light">
                             <img class="" src="./img/html.png">
                             <h6>html</h6>
 
@@ -240,9 +239,6 @@
                 </div>
 
             </div>
-
-
-        </div>
 
         </div>
 
@@ -275,8 +271,7 @@
                                 aria-describedby="emailHelp" placeholder="alexandra@gmail.com" />
                         </div>
                         <div class="mb-3">
-                            <textarea name="" id="" placeholder="Write your message here" class="form-control"
-                                style="width: 100%; height: 170px"></textarea>
+                            <textarea name="" id="" placeholder="Write your message here" class="form-control"></textarea>
                         </div>
                         <div>
                             <button type="button" class="btn btn-outline-primary bg-white" text-primary>
